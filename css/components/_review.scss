@@ -8,6 +8,26 @@
         align-items: center;
         flex-direction: column;
         margin-bottom: 16px;
+        @media (min-width: 992px) {
+            width: 75%;
+            flex-direction: initial;
+            gap: 8px;
+        }
+        &--first {
+            @media (min-width: 992px) {
+                align-self: flex-start;
+            }
+        }
+        &--second {
+            @media (min-width: 992px) {
+                align-self: center;
+            }
+        }
+        &--last {
+            @media (min-width: 992px) {
+                align-self: flex-end;
+            }
+        }
     }
     &__stars {
         background-image: url(/../../images/icon-star.svg);
@@ -18,5 +38,6 @@
         color: $magenta;
         font-weight: 700;
         margin-bottom: 0;
+        margin-top: 6px;
     }
 }

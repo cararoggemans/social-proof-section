@@ -2,8 +2,48 @@
 body {
   font-family: "League Spartan", sans-serif;
   font-size: 0.938rem;
-  background-image: url(../../images/bg-pattern-top-mobile.svg);
+  background-image: url(/../../images/bg-pattern-top-mobile.svg);
   background-repeat: no-repeat;
+}
+
+@media (min-width: 992px) {
+  .main {
+    max-width: 90%;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+@media (min-width: 992px) {
+  .header-reviews__wrapper {
+    display: flex;
+    gap: 24px;
+  }
+}
+
+@media (min-width: 992px) {
+  .header, .reviews {
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .reviews {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .testimonials {
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+    min-height: 280px;
+  }
 }
 
 .review__card {
@@ -16,6 +56,28 @@ body {
   flex-direction: column;
   margin-bottom: 16px;
 }
+@media (min-width: 992px) {
+  .review__card {
+    width: 75%;
+    flex-direction: initial;
+    gap: 8px;
+  }
+}
+@media (min-width: 992px) {
+  .review__card--first {
+    align-self: flex-start;
+  }
+}
+@media (min-width: 992px) {
+  .review__card--second {
+    align-self: center;
+  }
+}
+@media (min-width: 992px) {
+  .review__card--last {
+    align-self: flex-end;
+  }
+}
 .review__stars {
   background-image: url(/../../images/icon-star.svg);
   width: 85px;
@@ -25,6 +87,7 @@ body {
   color: hsl(300deg, 43%, 22%);
   font-weight: 700;
   margin-bottom: 0;
+  margin-top: 6px;
 }
 
 .header {
@@ -50,6 +113,12 @@ body {
   padding: 24px;
   margin-bottom: 16px;
 }
+@media (min-width: 992px) {
+  .testimonial__card {
+    width: 33.333%;
+    min-height: 150px;
+  }
+}
 .testimonial__card__user-info {
   display: flex;
   align-items: center;
@@ -72,4 +141,19 @@ body {
 .testimonial__card__text {
   color: white;
   line-height: 24px;
+}
+@media (min-width: 992px) {
+  .testimonial__card--first {
+    align-self: flex-start;
+  }
+}
+@media (min-width: 992px) {
+  .testimonial__card--second {
+    align-self: center;
+  }
+}
+@media (min-width: 992px) {
+  .testimonial__card--last {
+    align-self: flex-end;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -3,6 +3,10 @@
     border-radius: 6px;
     padding: 24px;
     margin-bottom: 16px;
+    @media (min-width: 992px) {
+        width: 33.333%;
+        min-height: 150px;
+    }
     &__user-info {
         display: flex;
         align-items: center;
@@ -27,5 +31,20 @@
     &__text {
         color: white;
         line-height: 24px;
+    }
+    &--first {
+        @media (min-width: 992px) {
+            align-self: flex-start;
+        }
+    }
+    &--second {
+        @media (min-width: 992px) {
+            align-self: center;
+        }
+    }
+    &--last {
+        @media (min-width: 992px) {
+            align-self: flex-end;
+        }
     }
 }
