@@ -17,7 +17,7 @@ body {
   margin-bottom: 16px;
 }
 .review__stars {
-  background-image: url(../../images/icon-star.svg);
+  background-image: url(/../../images/icon-star.svg);
   width: 85px;
   height: 16px;
 }
