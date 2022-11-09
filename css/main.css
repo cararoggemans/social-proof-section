@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
+body {
+  font-family: "League Spartan", sans-serif;
+  font-size: 0.938rem;
+  background-image: url(../../images/bg-pattern-top-mobile.svg);
+  background-repeat: no-repeat;
+}
+
+.review__card {
+  background-color: hsl(300deg, 24%, 96%);
+  padding: 12px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+.review__stars {
+  background-image: url(../../images/icon-star.svg);
+  width: 85px;
+  height: 16px;
+}
+.review__text {
+  color: hsl(300deg, 43%, 22%);
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 64px;
+}
+.header__title {
+  color: hsl(300deg, 43%, 22%);
+  font-size: 2.7rem;
+  line-height: 32px;
+  margin-bottom: 24px;
+  letter-spacing: -1.5px;
+}
+.header__text {
+  color: hsl(303deg, 10%, 53%);
+  font-size: 1.15rem;
+  line-height: 24px;
+}
+
+.testimonial__card {
+  background-color: hsl(300deg, 43%, 22%);
+  border-radius: 6px;
+  padding: 24px;
+  margin-bottom: 16px;
+}
+.testimonial__card__user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  gap: 24px;
+}
+.testimonial__card__user-img {
+  border-radius: 50%;
+  width: 50px;
+}
+.testimonial__card__user-name {
+  color: white;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+.testimonial__card__user--verified {
+  margin-top: 6px;
+  color: hsl(333deg, 80%, 67%);
+}
+.testimonial__card__text {
+  color: white;
+  line-height: 24px;
+}/*# sourceMappingURL=main.css.map */

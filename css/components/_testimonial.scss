@@ -1,0 +1,31 @@
+.testimonial__card {
+    background-color: $magenta;
+    border-radius: 6px;
+    padding: 24px;
+    margin-bottom: 16px;
+    &__user-info {
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+        gap: 24px;
+    }
+    &__user-img {
+        border-radius: 50%;
+        width: 50px;
+    }
+    &__user-name {
+        color: white;
+        margin-bottom: 0;
+        font-weight: 700;
+    }
+    &__user {
+        &--verified {
+            margin-top: 6px;
+            color: $softpink;
+        }
+    }
+    &__text {
+        color: white;
+        line-height: 24px;
+    }
+}

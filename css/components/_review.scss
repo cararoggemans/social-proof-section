@@ -1,0 +1,22 @@
+.review {
+    &__card {
+        background-color: $lightmagenta;
+        padding: 12px;
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 16px;
+    }
+    &__stars {
+        background-image: url(../../images/icon-star.svg);
+        width: 85px;
+        height: 16px;
+    }
+    &__text {
+        color: $magenta;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+}
